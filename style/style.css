@@ -206,3 +206,41 @@ a[data-fancybox] img {
 .is-nav-selected .fancybox__thumb::after {
 	display: none;
 }
+
+@media only screen and (max-width: 767px) {
+	.wrapp {
+	  padding: 10px; /* Adjust padding for smaller screens */
+	  padding-top: 60px; /* Adjust top padding for smaller screens */
+	}
+  
+	.title {
+	  font-size: var(--fz-medium); /* Adjust font size for smaller screens */
+	  margin-bottom: 30px; /* Adjust margin for smaller screens */
+	}
+  
+	.heart {
+	  width: 40px; /* Adjust width for smaller screens */
+	  height: 40px; /* Adjust height for smaller screens */
+	  margin-bottom: 30px; /* Adjust margin for smaller screens */
+	}
+  
+	.gallery__item {
+	  max-width: 100%; /* Adjust max-width for smaller screens */
+	  width: 100%;
+	  height: 200px; /* Adjust height for smaller screens */
+	  margin-bottom: 10px; /* Adjust margin for smaller screens */
+	}
+  
+	.gallery__img {
+	  height: 100%;
+	}
+  
+	.zoom {
+	  font-size: 16px; /* Adjust font size for smaller screens */
+	}
+  
+	.zoom img {
+	  width: 80px; /* Adjust width for smaller screens */
+	  height: 80px; /* Adjust height for smaller screens */
+	}
+  }
